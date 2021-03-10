@@ -1,0 +1,17 @@
+name = "PolymakeInterfaceForJulia"
+uuid = "70ee2874-e7ac-418b-a1a6-336bc04dbfe6"
+authors = ["Martin Bies <MBies87@googlemail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+Oscar = "f1435218-dba5-11e9-1e4d-f1a5fab5fc13"
+Polymake = "d720cf60-89b5-51f5-aff5-213f193123e7"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
